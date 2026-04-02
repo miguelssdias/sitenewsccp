@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site oficial não-oficial do Sport Club Corinthians Paulista. Notícias, elenco e muito mais da maior torcida do Brasil.">
+  <title>Sport Club Corinthians Paulista</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="shortcut icon" href="https://cdn.meutimao.com.br/_upload/forumtopico/2024/08/27/87c4a43331f6d5246008b25f48f8f566.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="top">
+  <div class="container header-container">
+    <a href="index.html" class="logo-link" aria-label="Sport Club Corinthians Paulista — Início">
+      <img src="https://hubfiel.com.br/wp-content/uploads/2025/02/logo-corinthians-180x180.png" alt="Escudo do Corinthians" class="logo">
+      <div class="logo-text">
+        <span class="nome">Corinthians</span>
+        <span class="fundacao">Fundado em 1910</span>
+      </div>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar" id="main-nav" role="navigation" aria-label="Navegação principal">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="elenco.html">Elenco</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="overlay" id="overlay" aria-hidden="true"></div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" aria-label="Banner principal">
+  <div class="hero-bg" role="img" aria-label="Torcida do Corinthians"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-noise"></div>
+
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>Temporada 2026 — Fiel Torcida</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="sub">Sport Club</span>
+        Corinthians
+        <span class="destaque">Paulista</span>
+      </h1>
+
+      <p class="hero-desc">
+        Do Parque São Jorge para o mundo. A maior torcida do Brasil vive em cada jogo, cada gol, cada conquista.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="elenco.html" class="btn-primary">Ver Elenco</a>
+        <a href="noticias.html" class="btn-outline">Últimas Notícias</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <span>Rolar</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ===================== DESTAQUES ===================== -->
+<section class="section-destaques" aria-labelledby="titulo-destaques">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="section-label">Em Alta</p>
+        <h2 class="section-title" id="titulo-destaques">Destaques</h2>
+      </div>
+      <a href="noticias.html" class="section-link">Ver tudo</a>
+    </div>
+
+    <div class="destaque-grid">
+      <!-- Card principal -->
+      <a href="https://www.instagram.com/corinthians/" class="destaque-card" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://conteudo.imguol.com.br/c/esporte/07/2024/08/08/jogadores-do-corinthians-comemoram-classificacao-contra-o-gremio-na-copa-do-brasil-1723087716708_v2_4x3.jpg"
+          alt="Jogadores do Corinthians comemorando classificação na Copa do Brasil"
+          class="destaque-card-img"
+          loading="lazy">
+        <div class="destaque-card-overlay"></div>
+        <div class="destaque-card-content">
+          <span class="destaque-tag">Redes Sociais</span>
+          <h3 class="destaque-card-title">Siga o Timão nas redes e fique por dentro de tudo</h3>
+          <p class="destaque-card-desc">Notícias, bastidores, gols e a fiel torcida. Tudo no Instagram oficial do Corinthians.</p>
+        </div>
+      </a>
+
+      <!-- Card 2 -->
+      <a href="noticias.html" class="destaque-card">
+        <img
+          src="https://static.corinthians.com.br/uploads/WG08Kyrn/16801835277e13dae5a5604bef7b1d48aa4b53b9d0.jpg"
+          alt="Notícias do Corinthians"
+          class="destaque-card-img"
+          loading="lazy">
+        <div class="destaque-card-overlay"></div>
+        <div class="destaque-card-content">
+          <span class="destaque-tag">Notícias</span>
+          <h3 class="destaque-card-title">Últimas notícias e jogos</h3>
+        </div>
+      </a>
+
+      <!-- Card 3 -->
+      <a href="elenco.html" class="destaque-card">
+        <img
+          src="https://cdn.meutimao.com.br/fotos-do-corinthians/w614/2023/09/26/yuri_alberto_apos_marcar_gol_contra_o_fortaleza_trm1.jpg"
+          alt="Elenco Corinthians 2026"
+          class="destaque-card-img"
+          loading="lazy">
+        <div class="destaque-card-overlay"></div>
+        <div class="destaque-card-content">
+          <span class="destaque-tag">Elenco</span>
+          <h3 class="destaque-card-title">Conheça o elenco 2026</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTATO ===================== -->
+<section class="section-contato" id="contato" aria-labelledby="titulo-contato">
+  <div class="container">
+    <div class="contato-inner">
+      <p class="section-label" style="justify-content:center; margin-bottom:0.5rem;">
+        <span style="width:24px;height:2px;background:var(--vermelho);display:inline-block;"></span>
+        &nbsp;Redes Sociais
+      </p>
+      <h2 class="contato-title" id="titulo-contato">Fale Conosco</h2>
+      <p class="contato-desc">Siga o Timão e fique por dentro de tudo.</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/corinthians/?locale=pt_BR" target="_blank" rel="noopener noreferrer" aria-label="Facebook do Corinthians"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/corinthians/" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Corinthians"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://x.com/corinthians" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) do Corinthians"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/corinthians" target="_blank" rel="noopener noreferrer" aria-label="YouTube do Corinthians"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <a href="index.html" class="footer-logo" aria-label="Início">
+        <img src="https://hubfiel.com.br/wp-content/uploads/2025/02/logo-corinthians-180x180.png" alt="Escudo do Corinthians">
+      </a>
+      <p class="footer-copy">&copy; 2026 Sport Club Corinthians Paulista. Todos os direitos reservados.</p>
+      <nav class="footer-links" aria-label="Links do rodapé">
+        <a href="index.html">Home</a>
+        <a href="elenco.html">Elenco</a>
+        <a href="noticias.html">Notícias</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<a href="#top" class="back-to-top" aria-label="Voltar ao topo">
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
