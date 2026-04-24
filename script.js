@@ -225,7 +225,7 @@
     const cards = $$('.player-card', grid);
 
     const DURATION = 320;
-    const EASE     = 'cubic-bezier(0.4, 0, 0.2, 1)';
+    const EASE     = 'cubic-bezier(0.4, 0, 0.2, 1)';   
 
     const aplicarFiltro = (filtro) => {
       // 1. Capturar posições antes
